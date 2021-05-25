@@ -1,0 +1,11 @@
+{
+	"name": "food-api-example-mod",
+	"version": "1.0.0",
+	"description": "A mod that exists to give an example of how Food API works.",
+	"homepage": "",
+	"ccmodDependencies": {
+		"ccloader": "^2.20.0",
+        "item-api": "^0.4.0",
+		"food-api": "^1.0.0"
+	}
+}

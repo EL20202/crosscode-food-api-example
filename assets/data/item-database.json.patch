@@ -1,0 +1,63 @@
+[
+{"type": "ENTER", "index": "items"},
+{ 
+    "type": "ADD_ARRAY_ELEMENT",
+    "content": {
+        "customItem": "example-food-item-a",
+        "name": {
+            "en_US": "Food Item A"
+        },
+        "description": {
+            "en_US": "An example consumable that increases SP regen, and looks like a blue A."
+        },
+        "type": "CONS",
+        "cost": 100,
+        "level": 1,
+        "icon": "item-items",
+        "time": 40,
+        "stats": [
+            "SP_REGEN-1"
+        ],
+        "rarity": 0,
+        "effect": {
+            "sheet": "drops",
+            "name": "healing"
+        },
+        "useSpeed": 1,
+        "order": 1,
+        "noTrack": true,
+
+        "foodSprite": "TESTFOOD-A"
+    }
+},
+{
+    "type": "ADD_ARRAY_ELEMENT",
+    "content": {
+        "customItem": "example-food-item-b",
+        "name": {
+            "en_US": "Food Item C"
+        },
+        "description": {
+            "en_US": "An example item that increases attack, and looks like a red C."
+        },
+        "type": "CONS",
+        "cost": 100,
+        "level": 1,
+        "icon": "item-items",
+        "time": 40,
+        "stats": [
+            "ATTACK-1"
+        ],
+        "rarity": 0,
+        "effect": {
+            "sheet": "drops",
+            "name": "healing"
+        },
+        "useSpeed": 1,
+        "order": 2,
+        "noTrack": false,
+
+        "foodSprite": "TESTFOOD-C2"
+    }
+}
+]
